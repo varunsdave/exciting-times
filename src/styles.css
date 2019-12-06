@@ -1,1 +1,25 @@
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat);
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/assets/Montserrat/Montserrat-Light.ttf) format("truetype");
+  font-weight:300;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: no-repeat center center fixed;
+  background-image:  linear-gradient( rgba(240,248,255,0.01), rgba(0,0,0,.7) ),
+  url('/assets/IMG_7785.JPG') ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  height: 100%
+}
